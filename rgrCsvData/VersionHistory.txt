@@ -1,0 +1,6 @@
+Version History
+===============
+
+1.0.0   Initial version
+1.1.0	Cross-platform release using setup
+1.1.1	Minor changes to put version info into a separate file and push to github

@@ -1,0 +1,10 @@
+Category,Title,Journal,Author,Description,Paper,Archive,Tags
+C409,A Better Balun? Done!,IEEE Microwave Magazine,"Hansik Oh, et al",IMS 2016 Student Design Winner.  Printed and ferrite bauin designs with good results,C409-001.pdf,False,A501
+A501,Computation of Elliptic Functions of Rational Fractions of a Quarterperiod,"IRE Trans. Circuit Theory, CT-5, Dec 1958",H. J. Orchard,Computing these special elliptic functions to high accuracy.,A501-001.pdf,FALSE,C501
+C501,A Simple Method for Modelling Coupling among Several Microstrip Lines in MICs and MMIcs,Private Correspondence,Dan Swanson,Clever idea to provide a separate [Y] matrix that supplements the the normal self and mutual elements to model the cross coupling terms.,C501-001.pdf,0,C501,A501
+C501,De-embedding elements for capacitive pi network,Private Correspondence,Dan Swanson,A working calculation showing the details and practical considerations,C501-002.pdf,0,E901,C409,A501
+C502,Coupling Bandwidths and Reflected Group Delay Characterisation of Microwave Bandpass Filters,Applied Microwaves and RF,Peter Martin,Good explanation of the application of coupling BW to design and GD calculation,C502-001.pdf,0
+C502,General Development Notes,Private Correspondence,Phil Sleigh,Practical notes on alignment of filters and diplexers. Also empirical calcs of tapping points for the correct loaded Q,C502-002.pdf,0,E301
+C502,Notes on Combline Filter Design using K's and Q's from EM analysis,Private Correspondence,Dan Swanson,"Little details on EM, clear on K and Q cals and excellent results",C502-003.pdf,0,D502,P801,J073
+C502,Diplexer Alignment,Personal Notes,Richard G. Ranson,"Practical instruon aligning diplexers, from Phil. Some MatcCAD code and a desing example",C502-004.pdf,0
+E901,Scavenging for Energy,IEEE Microwave Magazine,Valentina Palazzi et al,"2016 Student competition winner, antenna and detector design given",E901-001.pdf,0

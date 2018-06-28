@@ -1,0 +1,20 @@
+CSV Database
+============
+
+Consolidation of earlier fragments for a CSV database.
+Primary function is to support an electroninc library of papers using a
+findadex style index system
+                                                                  rgr28jun18
+
+Installation
+
+From git use clone, or download and unzip the folder
+from within the folder, exectute:
+
+python setup.py install [--user] [--record win_scheme.txt]
+
+The user option installs into the local user packages folder, or a virtual 
+environment if it is activated.  Otherwise it is installed into a system wide 
+packages folder and may need sudo privledges. 
+
+Record help note where files are installed for reference and potential uninstall.
