@@ -45,7 +45,7 @@ class CsvItem(OrderedDict):
         return self
     
     def isList(self, key):
-        """indicate if the key is the last one, that is always a list"""
+        """indicate if the key is the last one, which is always a list"""
         logger.debug('key position '+str(self.keys().index(key)))
         return self.keys().index(key)-self.length==-1
     
@@ -91,7 +91,9 @@ class CsvItem(OrderedDict):
     def pick(self, *fields):     
         """return a list of just the values of fields given in *fields"""
         # exact field names are expected
-        return [self[x] for x in fields if x in self.keys()]
+        # have to expand the list field if needed
+        return [' '.join(self[x]) if self.isList(x) else self[x]
+                for x in fields if x in self.keys()]
 
     def extract(self, *fields):  
         """return a dict of the fields given in *fields"""

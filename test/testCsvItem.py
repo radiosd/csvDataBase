@@ -61,6 +61,9 @@ class TestCsvItem(unittest.TestCase):
         #!# no test for a value > format width
         self.assertListEqual(inst.pick('key2', 'key1'), TEST_OUTPUT2,
                              'pick values by key field name')
+        self.assertListEqual(inst.pick('key2', 'keys'), ['2','3 4'],
+                             'pick flattens the list field values')
+
         self.assertDictEqual(inst.extract('key2', 'key1'), TEST_OUTPUT3,
                              'extract values by key field name')
 
